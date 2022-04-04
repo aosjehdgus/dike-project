@@ -1,0 +1,93 @@
+/* eslint-disable import/prefer-default-export */
+import { makeStyles } from '@mui/styles';
+
+export const useStyles = makeStyles(theme => ({
+  root: {
+    padding: theme.spacing(0, 3),
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    position: 'relative',
+  },
+  verificationTitle: {
+    color: 'rgba(41, 40, 45, 1)',
+    fontSize: 20,
+    fontWeight: 700,
+  },
+  form: {
+    display: 'flex',
+    padding: 10,
+    marginTop: 10,
+  },
+  container: {
+    padding: 25,
+    borderRadius: 12,
+    backgroundColor: 'white',
+    border: '1px solid rgba(174, 163, 146, 0.5)',
+  },
+  input: {
+    borderRadius: 10,
+    backgroundColor: theme.palette.common.white,
+    fontSize: 13,
+    padding: '10px 12px',
+    transition: theme.transitions.create(['border-color', 'box-shadow']),
+  },
+  btn: {
+    color: 'white',
+    fontSize: 15,
+    fontWeight: 800,
+    backgroundColor: 'rgba(98, 92, 96, 1)',
+    '&:hover': {
+      backgroundColor: 'rgba(98, 92, 96, 0.8)',
+    },
+    borderRadius: 12,
+    marginTop: theme.spacing(2),
+    position: 'relative',
+    padding: '10px 12px',
+  },
+  extraBtn: {
+    marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(1),
+    borderRadius: 5,
+    position: 'relative',
+    backgroundColor: 'white',
+    border: '1px solid #ced4da',
+    color: 'rgba(67, 68, 71, 1)',
+    fontSize: 16,
+    fontWeight: 800,
+    padding: '10px 12px',
+    '&:hover': {
+      color: 'white',
+      backgroundColor: 'rgba(67, 68, 71, 0.8)',
+    },
+  },
+  authBtn: {
+    width: 38,
+    height: 30,
+    marginLeft: 5,
+    borderRadius: 5,
+    position: 'relative',
+    backgroundColor: 'white',
+    border: '1px solid #ced4da',
+    color: 'rgba(104, 104, 172, 1)',
+    fontSize: 11,
+    fontWeight: 800,
+    padding: '10px 12px ',
+    '&:hover': {
+      color: 'white',
+      backgroundColor: 'rgba(104, 104, 172, 1)',
+    },
+  },
+  remainTime: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 30,
+    color: '#f44336',
+    position: 'relative',
+    padding: 10,
+    fontSize: 12,
+    fontWeight: 800,
+  },
+}));
