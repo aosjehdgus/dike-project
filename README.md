@@ -1,70 +1,21 @@
-# Getting Started with Create React App
-# Test
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+  <a href="https://aosjehdgus.github.io/lonnie-portfolio/" target="_blank">Dike Project</a>
+</h2>
+<div align="center">
+</div>
 
-## Available Scripts
+### 프로젝트 소개
+#### 프로젝트 기간
+- 2022.11 - 2022.04
 
-In the project directory, you can run:
+#### 개발 내용
 
-### `yarn start`
+<img src="https://user-images.githubusercontent.com/66933768/161499921-8d5b23dd-c952-4d0a-8522-c884db71ed5b.gif" width="400" height="250" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-  국립국어원, 서울 교대와 함께 진행한 프로젝트로 AI 학습을 위한 가공된 데이터를 만드는 프로젝트를 진행하였습니다. 비윤리적 표현을 정해진 기준에 맞게 평가할 수 있도록 도와주는 도구를 개발하고 작업 현황을 확인할 수 있는 admin 페이지를 개발 하였습니다. 프론트엔드 개발을 전담해서 맡아서 진행하였고, 백엔드 데이터 업로드 및 정제 작업을 인수인계 받아 진행하였습니다
+  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 기술 스택
+|파트|기술|
+|---|---|
+|Frontend|React, Redux-toolkit, Redux-saga, Material-UI|
